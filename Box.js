@@ -10,6 +10,7 @@ class Box extends BaseClass {
      else{
        World.remove(world, this.body);
        push();
+       console.log(this.visibility);
        this.Visiblity = this.Visiblity - 5;
        //console.log(this.Visiblity);
        tint(106, 13, 173,this.Visiblity);
